@@ -6,7 +6,9 @@ public class CapitalizeFirstLetter {
     public static void main(String args[]){
         Scanner sc=new Scanner(System.in);
         System.out.println("input a sentence : " );
+
         String line= sc.nextLine();
+
         String upper_case_line="";
         Scanner a = new Scanner(line);
 
